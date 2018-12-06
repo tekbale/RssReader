@@ -5,6 +5,7 @@ pipeline {
         stage("test") {
             steps {
                 echo "${BRANCH_NAME}"
+                echo " "
             }
         }
     }
