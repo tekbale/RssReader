@@ -1,5 +1,5 @@
 node {
-    stage {
+    stage("test") {
         echo "${BRANCH_NAME}"
     }
 }
